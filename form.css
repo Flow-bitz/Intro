@@ -1,0 +1,98 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Form heading */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Form container */
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels */
+label {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Text inputs, email, phone, password and date */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    outline: none;
+}
+
+/* Input focus effect */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Gender radio buttons */
+input[type="radio"] {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Submit hover effect */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Reset button */
+input[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Reset hover effect */
+input[type="reset"]:hover {
+    background-color: #a71d2a;
+}
