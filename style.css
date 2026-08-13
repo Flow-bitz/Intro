@@ -11,17 +11,19 @@ body{
     color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
-    text-align: right;
+    text-align: center;
 }
 
 .david{
     color: blue;
 }
 
-.frank{
-    
+div p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.john{
-
+div > p{
+    color: red;
 }
