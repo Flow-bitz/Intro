@@ -1,0 +1,29 @@
+/* CSS POSITIONING */
+.box1{
+    position: relative;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.box2{
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    top: 10px;
+    right: 20px;
+}
+
+.box3{
+    position: sticky;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.but{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}

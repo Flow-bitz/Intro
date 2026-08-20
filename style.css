@@ -1,8 +1,10 @@
 table{
-    border-radius: 1px;
+    border-radius: 50px;
     border-color: blue;
     width: 50%;
     color: aliceblue;
+    border-collapse: collapse;
+    width: 100%;
     
 }
 
@@ -24,6 +26,14 @@ body{
 
 .david{
     color: blue;
+}
+
+div{
+    border-radius: 60px;
+}
+
+.form{
+    border-radius: 0%;
 }
 
 div p{
@@ -100,4 +110,54 @@ a:visited {
 
 a:active {
     color: yellow;
+}
+
+/* IMAGE OPACITY */
+img{
+    opacity: 1;
+}
+
+img:hover{
+    opacity: 0.4;
+}
+
+/* CSS LIST */
+
+ul{
+    list-style-type: circle;
+    color: white;
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    color: white;
+    list-style-position: outside;
+}
+dl{
+    color: white;
+}
+
+/* CSS TABLES */
+
+table{
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 65%;
+    border: 2px solid black;
+}
+
+.imgg{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.but{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
